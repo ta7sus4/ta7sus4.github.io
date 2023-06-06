@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand m-2" href="">Inagawa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link m-2" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link m-2" href="#works">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link m-2" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-secondary">About Me</h2>
+            <p>東洋大学情報連携学部情報連携学科3年<br>
+                python、android開発などできます。<br>
+                軽音サークルに所属しています。<br>
+                趣味はドラムです。
+            </p>
+        </div>
+    </section>
+
+    <section id="works" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-3 text-secondary">Works</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="img/icon_food.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title" style="display:inline">FoodieCompass🍲🎲</h5>
+                            <p class="text-secondary card-text" style="display:inline">Ruby on Rails</p>
+                            <p class="card-text">Hotpepper APIを使って近くの飲食店をランダムに提案します</p>
+                            <a href="https://restaurant-suggester.onrender.com/" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://play-lh.googleusercontent.com/RXxOQauIHQHGKVB0pZ5DIs1xIWr1PNJnYyzz_YqnklNtpIZnQ5ENFPN1NwCYP02FwA=w240-h480-rw" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title" style="display:inline">経路検索 for 豊鉄バス</h5>
+                            <p class="text-secondary card-text" style="display:inline">Android(Kotlin)</p>
+                            <p class="card-text">豊橋市内及び東三河地区を運行する路線バス「豊鉄バス」のルートを検索します。</p>
+                            <a href="https://play.google.com/store/apps/details?id=jp.ta7sus4.toyotetsu" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://play-lh.googleusercontent.com/LNcHiDg_HgXWP3wECaitYtw4xtGTiUYe-vtH-SkG8p822lLRQOZpQpB1Ia06kayYsgI=w240-h480-rw" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title" style="display:inline">共有から検索</h5>
+                            <p class="text-secondary card-text" style="display:inline">Android(Kotlin)</p>
+                            <p class="card-text">Android向けの検索補助アプリです。</p>
+                            <a href="https://play.google.com/store/apps/details?id=jp.ta7sus4.sharesearch" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container mt-5 mb-5">
+            <h2 class="mb-3 text-secondary">Skills</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>言語</h5>
+                    <ul>
+                        <li>Python3</li>
+                        <li>Kotlin</li>
+                        <li>Java</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>フレームワーク</h5>
+                    <ul>
+                        <li>Django</li>
+                        <li>Ruby on Rails</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>資格</h5>
+                    <ul>
+                        <li>基本情報技術者</li>
+                        <li>応用情報技術者</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="text-secondary">&copy; 2023 Inagawa</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
